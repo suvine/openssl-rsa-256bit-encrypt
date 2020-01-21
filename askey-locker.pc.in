@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: askey-locker
+Description: askey locker
+Version: @VERSION@
+Libs: -L${libdir} -laskey_locker
+Cflags: -I${includedir}/askey-locker
